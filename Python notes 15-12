@@ -1,0 +1,28 @@
+Notestitle I suppose lol
+
+115/12
+10:34 pm
+"for" in python:
+Doesn't take the first "for" value, it's just like an add ig. It takes the "in" 
+instead for the thing you want to use (for requires ITERATORS [whatever data kind of, lol]: "in my_list", 
+but you do need to use the same "for" value again
+Example:
+" my_list = [A, O, E]
+for z in my_list:
+  print(z)
+------------
+will print you all the data/value inside, in this case, "A", "O", and "E".)
+
+Classes:
+Just the way to CLASSIFY (yep) the data, such as LISTS, STRINGS, INTEGERS, TUPLES
+and whatever other data you can customize.
+
+Self:
+Basically variables that are part of an instance (Will explain later), called by "(self)" and "self."
+
+Instances:
+An object that belongs to a class
+
+Try and Except:
+Just as it says again, try code and add exceptions for errors
+there can be multiple errors and just printing the descriptions of them)
