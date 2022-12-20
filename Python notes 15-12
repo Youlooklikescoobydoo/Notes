@@ -1,6 +1,6 @@
 Notestitle I suppose lol
 
-115/12
+15/12
 10:34 pm
 "for" in python:
 Doesn't take the first "for" value, it's just like an add ig. It takes the "in" 
@@ -9,13 +9,15 @@ but you do need to use the same "for" value again
 Example:
 " my_list = [A, O, E]
 for z in my_list:
-  print(z)
+  print(z)  "
 ------------
 will print you all the data/value inside, in this case, "A", "O", and "E".)
 
 Classes:
 Just the way to CLASSIFY (yep) the data, such as LISTS, STRINGS, INTEGERS, TUPLES
 and whatever other data you can customize.
+You can as well make your own class through "class myclass:"
+and then indenting through tabs or some shit
 
 Self:
 Basically variables that are part of an instance (Will explain later), called by "(self)" and "self."
@@ -26,3 +28,22 @@ An object that belongs to a class
 Try and Except:
 Just as it says again, try code and add exceptions for errors
 (There can be multiple errors and just printing the descriptions of them)
+
+20/12
+Functions:
+Creating new functions, with customizable use and values (Created through
+"def mogus(arguments):
+  print("amogus") ".
+  
+The "mogus" is just a random name I gave to it, the "(arguments)" are just the values you could give to it
+(not needed but it's pretty useful) and then the "print("amogus")" part is as well just the way you get it to work
+in the way you want [You could as well just add to it any other values, such as change data, as an example bc there
+are many more than I could explain right now]
+
+Position:
+If used "/" on a function, it'll be only usable with positional arguments
+(Values typed on the order they are while defining the function).
+And continuing, (because this "tutorial" made by a noob is really short), if used "*" on a function
+(Both done with a comma, separated from the main value, being the "/" used like this "function(a, /" and ' * ' done like this
+"function(*, a)"], it'll only be usable through keywords (basically stricted to only naming the value you want to
+change or something)
