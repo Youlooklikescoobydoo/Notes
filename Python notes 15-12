@@ -44,6 +44,6 @@ Position:
 If used "/" on a function, it'll be only usable with positional arguments
 (Values typed on the order they are while defining the function).
 And continuing, (because this "tutorial" made by a noob is really short), if used "*" on a function
-(Both done with a comma, separated from the main value, being the "/" used like this "function(a, /" and ' * ' done like this
+[Both done with a comma, separated from the main value, being the "/" used like this "function(a, /" and ' * ' done like this
 "function(*, a)"], it'll only be usable through keywords (basically stricted to only naming the value you want to
 change or something)
