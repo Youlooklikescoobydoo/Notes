@@ -1,0 +1,7 @@
+20/12
+(pretty quick lol)
+
+Strings:
+To store an string you gotta type down "char mystring[] = string" ("mystring" and "string" are placeholders
+for whatever you want to type down), you also need to format text if you want to put new data inside an string
+(string which needs "printf()") and type a comma after the string (current format knowing: %s means string formatting)
