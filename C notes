@@ -2,6 +2,21 @@
 (pretty quick lol)
 
 Strings:
-To store an string you gotta type down "char mystring[] = string" ("mystring" and "string" are placeholders
-for whatever you want to type down), you also need to format text if you want to put new data inside an string
-(string which needs "printf()") and type a comma after the string (current format knowing: %s means string formatting)
+To store an string you gotta type down "char mystring[] = string" [or just straight up "char mystring = string" for
+a single character i think] ("mystring" and "string" are placeholders for whatever you want to type down), you also need 
+to format text if you want to put new data inside an string (string which needs "printf()") 
+and type a comma after the string (current format knowing: %s means string formatting)
+
+30/12
+Text formatting:
+To add the strings or numbers that you want to add, add "%s" (For strings) then do a comma and type the name of the
+variable. For numbers it's "%d"
+(Example:
+  int main() {
+    char skeleton[] = "Skeleton appears";
+    printf("The %s", skeleton);
+    return 0;
+  }
+  
+Here you got a simple C script, which it's output will be "The Skeleton appears", pretty surely)
+For floats (0.2, as example) you have to do "%f"
