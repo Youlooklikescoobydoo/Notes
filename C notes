@@ -20,3 +20,16 @@ variable. For numbers it's "%d"
   
 Here you got a simple C script, which it's output will be "The Skeleton appears", pretty surely)
 For floats (0.2, as example) you have to do "%f"
+
+03/03 - 2023
+
+For making functions, you have to add an "()" for the parameters and use these "{}" for the code of the function
+like:
+"int mogus(int bruh) {
+  bruh = 1;
+  return bruh + 1;
+}"
+and I think that will work for adding 1 + 1 through a function because I haven't got a better example lol
+
+For opening a file you gotta use the "FILE" element, use a pointer "FILE *pogfil", and then in another line
+type "pogfil = fopen(filename, mode)". Same goes for closing but without the attributes for "fopen"
